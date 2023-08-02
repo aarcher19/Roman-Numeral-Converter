@@ -1,5 +1,5 @@
 # Roman-Numeral-Converter
-This JavaScript project converts Roman numerals to decimal numbers and vice versa. It provides functions to convert Roman numerals to decimals and decimals to Roman numerals.
+This JavaScript project converts Roman numerals to decimal numbers.
 
 Features:
 
