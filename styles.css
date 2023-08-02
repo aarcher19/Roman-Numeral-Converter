@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  width: 50vw;
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.title > span {
+  font-size: 45px;
+}
+
+.display {
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.conversion {
+  display: flex;
+  width: 50vw;
+  height: 100px;
+  color: #718355;
+  font-size: 45px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.input {
+  width: 50vw;
+  height: 100px;
+  border-top: 3px solid rgba(37, 37, 37, 0.884);
+}
+
+.input > input {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  text-align: right;
+  font-size: 45px;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons > button {
+  width: 100%;
+  height: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.clear {
+  background-color: rgb(228, 112, 112);
+  margin-right: 5px;
+}
+
+.enter {
+  background-color: #97a97c;
+}
